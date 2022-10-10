@@ -1,0 +1,12 @@
+.parent {
+    background-color: #060447;
+    width: 300px;
+    max-height: 50px;
+    resize: horizontal;
+    overflow: auto;
+}
+
+.child {
+    background-color: cornflowerblue;
+    width: clamp(100px, 75%, 400px);
+}

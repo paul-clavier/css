@@ -1,0 +1,11 @@
+input[type=text] {
+    border: 2px solid grey;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid black;
+}

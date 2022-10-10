@@ -1,0 +1,43 @@
+.root {
+    display: flex;
+    gap: 32px;
+}
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 32px;
+    padding: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.good {
+    border-radius: 24px;
+    border-color: darkslategrey;
+}
+
+.bad {
+    border-radius: 32px;
+    border-color: darkred;
+}
+
+.bread {
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-top-left-radius: 100px 50px;
+    border-top-right-radius: 100px 50px;
+}
